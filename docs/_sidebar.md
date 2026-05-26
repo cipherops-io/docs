@@ -2,3 +2,42 @@
 - [Introduction](src/introduction.md)
 - HowTo
   - [AWS](src/howtos/aws.md)
+- Alert Rules
+  - [Overview](src/alert-rules/README.md)
+  - [Rule Format](src/alert-rules/rule-format.md)
+  - [Deployment](src/alert-rules/deployment.md)
+  - [Testing](src/alert-rules/testing.md)
+  - Docs
+    - [Catalog](src/alert-rules/docs/catalog.md)
+    - [Compare vs Awesome](src/alert-rules/docs/compare-vs-awesome.md)
+    - Conventions
+      - [Label Contract](src/alert-rules/docs/conventions/label-contract.md)
+      - [Severity Tiers](src/alert-rules/docs/conventions/severity-tiers.md)
+  - Runbooks
+    - Caching
+      - [Memcached](src/alert-rules/runbooks/caching/memcached.md)
+    - Databases
+      - [ClickHouse](src/alert-rules/runbooks/databases/clickhouse.md)
+      - [CloudNativePG](src/alert-rules/runbooks/databases/cnpg.md)
+      - [Elasticsearch](src/alert-rules/runbooks/databases/elasticsearch.md)
+      - [MongoDB](src/alert-rules/runbooks/databases/mongodb.md)
+      - [MySQL](src/alert-rules/runbooks/databases/mysql.md)
+      - [PostgreSQL](src/alert-rules/runbooks/databases/postgresql.md)
+      - [Redis](src/alert-rules/runbooks/databases/redis.md)
+    - Ingress
+      - [Nginx Ingress](src/alert-rules/runbooks/ingress/nginx-ingress.md)
+    - Messaging
+      - [Kafka](src/alert-rules/runbooks/messaging/kafka.md)
+      - [RabbitMQ](src/alert-rules/runbooks/messaging/rabbitmq.md)
+    - Observability
+      - [Alertmanager](src/alert-rules/runbooks/observability/alertmanager.md)
+      - [Grafana](src/alert-rules/runbooks/observability/grafana.md)
+      - [Loki](src/alert-rules/runbooks/observability/loki.md)
+      - [Prometheus](src/alert-rules/runbooks/observability/prometheus.md)
+      - [Prometheus Operator](src/alert-rules/runbooks/observability/prometheus-operator.md)
+      - [VictoriaMetrics](src/alert-rules/runbooks/observability/victoriametrics.md)
+      - [VMAgent](src/alert-rules/runbooks/observability/vmagent.md)
+      - [VMAlert](src/alert-rules/runbooks/observability/vmalert.md)
+    - Runtimes
+      - [Java Spring Boot](src/alert-rules/runbooks/runtimes/java-springboot.md)
+      - [Python FastAPI](src/alert-rules/runbooks/runtimes/python-fastapi.md)
