@@ -4,9 +4,6 @@
   - [AWS](src/howtos/aws.md)
 - Alert Rules
   - [Overview](src/alert-rules/README.md)
-  - [Rule Format](src/alert-rules/rule-format.md)
-  - [Deployment](src/alert-rules/deployment.md)
-  - [Testing](src/alert-rules/testing.md)
   - Docs
     - [Catalog](src/alert-rules/docs/catalog.md)
     - [Compare vs Awesome](src/alert-rules/docs/compare-vs-awesome.md)
