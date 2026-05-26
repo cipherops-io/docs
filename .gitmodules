@@ -1,0 +1,3 @@
+[submodule "docs/src/alert-rules"]
+	path = docs/src/alert-rules
+	url = https://github.com/cipherops-io/rtifact-alert-rules.git
